@@ -9,7 +9,7 @@ export function main(event, context, callback) {
   const data = JSON.parse(event.body);
 
   const params = {
-    TableName: "notes",
+    TableName: "story",
     // 'Item' contains the attributes of the item to be created
     // - 'userId': user identities are federated through the
     //             Cognito Identity Pool, we will use the identity id
